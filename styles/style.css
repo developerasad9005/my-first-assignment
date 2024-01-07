@@ -139,6 +139,7 @@ header {
     text-transform: uppercase;
     background-color: #FF0000;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* End Party section style */
