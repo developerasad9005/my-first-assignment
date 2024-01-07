@@ -1,9 +1,37 @@
 /* global style  */
-*{
+* {
     padding: 0;
     margin: 0;
+    font-family: 'Merriweather', serif;
 }
-.container{
+
+header {
+    margin-top: 20px;
+}
+
+.container {
     width: 1320px;
     margin: 0px auto;
+}
+
+.banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../images/Banner\ Image.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    padding: 177px 334px;
+}
+
+.title {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.title-caption {
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
 }
