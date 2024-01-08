@@ -226,6 +226,7 @@ footer {
     font-weight: 500;
     text-decoration: none;
 }
+
 /* End footer section  */
 
 /* start Offer section  */
@@ -240,14 +241,87 @@ footer {
     font-weight: 400;
     line-height: 32px;
 }
-.offer-area{
+
+.offer-area {
     display: flex;
     justify-content: space-between;
     gap: 70px;
 }
-.offer-center-child{
+
+.offer-center-child {
     border: 15px solid #FF0000;
     border-radius: 50%;
     padding: 40px;
 }
+
 /* End Offer section  */
+
+
+/* Start sale section  */
+.sale-area .sale-description {
+    text-align: center;
+}
+
+.sale-sub-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.sale-title span {
+    color: #FF0000;
+}
+
+.sale-caption {
+    color: rgba(8, 2, 20, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.bar-area{
+    background: #FF0000;
+    width: 100%;
+    height: 230px;
+    border-radius: 10px 0px 10px 10px;
+}
+.image-area{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 65px;
+}
+.image-area .right-image{
+    background: url('../images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+}
+.left-image img {
+    position: absolute;
+    left: -59px;
+    bottom: -261px;
+    box-shadow: 1px 1px 1px solid black;
+}
+.right-image {
+    position: relative;
+    width: 430px;
+    height: 433px;
+}
+
+.right-image img {
+    position: absolute;
+    left: -36%;
+    top: 15%;
+}
+/* End sale section  */
