@@ -289,30 +289,35 @@ footer {
     font-weight: 500;
     line-height: 32px;
 }
-.bar-area{
+
+.bar-area {
     background: #FF0000;
     width: 100%;
     height: 230px;
     border-radius: 10px 0px 10px 10px;
 }
-.image-area{
+
+.image-area {
     display: flex;
     justify-content: space-between;
     position: relative;
     margin-top: 65px;
 }
-.image-area .right-image{
+
+.image-area .right-image {
     background: url('../images/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: center;
     float: right;
 }
+
 .left-image img {
     position: absolute;
     left: -59px;
     bottom: -261px;
     box-shadow: 1px 1px 1px solid black;
 }
+
 .right-image {
     position: relative;
     width: 430px;
@@ -324,4 +329,94 @@ footer {
     left: -36%;
     top: 15%;
 }
+
 /* End sale section  */
+
+/* start protfolio section  */
+.protfolio-sub-title {
+    color: #FF0000;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.protfolio-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 47px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.protfolio-caption {
+    color: rgba(9, 3, 20, 0.6);
+    font-family: Inter;
+    font-size: 21px;
+    line-height: 31px;
+}
+
+.protfolio-description {
+    margin-bottom: 50px;
+}
+
+.protfolio-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+}
+
+.protfolio-child {
+    box-shadow: 0 0 0 #aaa8a8;
+    transition: box-shadow 100ms ease;
+    /* -webkit-backface-visibility: hidden; */
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+.protfolio-child:hover {
+    transform: scale(1.1, 1.1);
+    z-index: 1;
+    border-radius: 10px;
+    filter: grayscale(60%);
+}
+
+/* end protfolio section  */
+
+/* start subscribe section  */
+.subscribe-area {
+    border-radius: 15px;
+    background: rgba(223, 0, 0, 0.05);
+    padding: 85px 0px;
+    text-align: center;
+}
+
+.email-box {
+    margin-top: 50px;
+}
+
+.email-box input {
+    margin: 0;
+    padding: 15px 15px;
+    outline: none;
+    border: none;
+    color: rgba(0, 0, 0, 0.733);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 400px;
+    border-radius: 50px 0px 0px 50px;
+}
+.email-box > button{
+    font-size: 18px;
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    background: #FF0000;
+    color: white;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+    margin-left: -5px;
+}
