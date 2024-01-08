@@ -23,7 +23,7 @@ header {
 }
 
 .banner {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
+    background: linear-gradient(180deg, #0c031dec 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner\ Image.png');
     background-position: center center;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -88,7 +88,7 @@ header {
 
 /* Start Party section style */
 .party-area {
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background: linear-gradient(90deg, #080214ea 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 142px;
@@ -98,7 +98,7 @@ header {
 }
 
 .party-description {
-    padding: 126px 0px 0px 126px;
+    padding: 116px 0px 0px 126px;
 }
 
 .party-description>h1 {
@@ -110,7 +110,7 @@ header {
 }
 
 .party-description>p {
-    color: rgba(201, 188, 188, 0.8);
+    color: rgba(219, 205, 205, 0.8);
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -147,7 +147,7 @@ header {
 
 /* Start Place section style */
 .place-area {
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background: linear-gradient(180deg, rgba(216, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding: 150px 0px 215px;
     text-align: center;
     border-radius: 10px;
@@ -163,71 +163,11 @@ header {
 }
 
 .place-area h1>span {
-    color: #F00;
+    color: #FF0000;
 }
 
 
 /* End Place section style */
-
-
-
-/* start footer section  */
-footer {
-    background-color: #070211;
-    padding: 120px 140px;
-}
-
-.left-content h3 {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 40px;
-}
-
-.right-content {
-    margin-right: 150px;
-}
-
-.right-content p {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 40px;
-}
-
-.right-content p img {
-    margin-right: 10px;
-}
-
-.top-description {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.social-icon {
-    padding: 100px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-
-.down {
-    margin-right: 0;
-}
-
-.down a {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-/* End footer section  */
 
 /* start Offer section  */
 .left {
@@ -235,7 +175,7 @@ footer {
 }
 
 .offer-description {
-    color: rgba(7, 2, 17, 0.60);
+    color: rgba(8, 2, 20, 0.534);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
@@ -351,7 +291,7 @@ footer {
 }
 
 .protfolio-caption {
-    color: rgba(9, 3, 20, 0.6);
+    color: rgba(12, 4, 27, 0.555);
     font-family: Inter;
     font-size: 21px;
     line-height: 31px;
@@ -420,3 +360,62 @@ footer {
     cursor: pointer;
     margin-left: -5px;
 }
+/* end subscribe section  */
+
+/* start footer section  */
+footer {
+    background-color: #070211;
+    padding: 120px 140px;
+}
+
+.left-content h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.right-content {
+    margin-right: 150px;
+}
+
+.right-content p {
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.right-content p img {
+    margin-right: 10px;
+}
+
+.top-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icon {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.down {
+    margin-right: 0;
+}
+
+.down a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* End footer section  */
