@@ -396,10 +396,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .social-icon {
-    padding: 100px 0px;
+    padding: 45px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -417,5 +418,12 @@ footer {
     font-weight: 500;
     text-decoration: none;
 }
-
+.line{
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+    /* s */
+}
+.copyright{
+    margin-top: 60px;
+}
 /* End footer section  */
